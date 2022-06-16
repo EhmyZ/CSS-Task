@@ -1,0 +1,242 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    /* overflow-x: hidden; */
+    font-size: 18px;
+}
+
+/* Header */
+header {
+    height: 100vh;
+}
+
+.hero_background {
+    /* border: solid red;
+    box-sizing: border-box; */
+
+    background-image: url(../img/Beach.png);
+    background-blend-mode: darken;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container {
+    display: flex;
+    padding: 2rem;
+    justify-content: end;
+    text-align: end;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+nav li a{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+    padding: top;
+}
+.nav-contact {
+    border: blue;
+    background-color: blue;
+    width: 5rem;
+    height: 1.5rem;
+    color : hsl(212, 27%, 100%);
+    cursor: pointer;
+    margin-top: -5rem;
+}
+.hero-header {
+    color: white;
+    text-align: left;
+    font-weight: 900;
+    font-size: 40px;
+}
+.header-text {
+    text-align: left;
+    padding-right: 35rem;
+    
+}
+.buttoni{
+    
+    border: blue;
+    background-color: blue;
+    width: 5rem;
+    height: 1.5rem;
+    color : hsl(212, 27%, 100%);
+    cursor: pointer;
+    margin-top: -5rem;
+}
+/* Main */
+.explore-container {
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.explore-item {
+     flex-basis: 100%;
+     height: 500px;
+}
+
+
+.explore-1_photo {
+    background-image: url(../img/Waterfall.png);
+    /* position: absolute; top: 10rem; left: 10rem;  */
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Icon-Container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-inline: auto;
+   /*  box-sizing: border-box;
+    border: solid red; */
+  }
+ .icons {
+    
+    padding: 0.5rem;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: mistyrose;
+    color: #000;
+  }
+
+.A {
+    color: skyblue;
+    text-align: center;
+}
+.Explore-header {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.explorew{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.Roma {
+    background-image: url(../img/Bridge.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.t-h {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20;
+    padding-top:25rem;
+    padding-bottom: 0rem;
+}
+
+.Jara {
+    background-image: url(../img/Tower.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.J-I {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20;
+    padding-top:25rem;
+    padding-bottom: 0rem;
+}
+.BKT {
+    
+    background-image: url(../img/Trees.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.B-T{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20;
+    padding-top:25rem;
+    padding-bottom: 0rem;
+}
+
+.review-container{
+    display: flex;
+    box-sizing: border-box;
+    text-align: left;
+}
+.review-item{
+    flex-basis: 60%;
+    padding: 2rem;
+    height: 500px;
+}
+.review-container{
+    flex-direction: row-reverse;
+}
+.review-photo{
+    
+    background-image: url(../img/Emily.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.review-textcontainer{
+    padding: 8rem;
+    text-align: left;
+    position: left;
+}
+.bg{
+    padding-bottom:2rem;
+    background-image: url(../img/Travel-chairs.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Meh{
+    text-align: center;
+    color: skyblue;
+}
+.Ex{
+    text-align: center;
+    color: #fff;
+}
+.Lo{
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: center;
+    color: gray;
+    flex-wrap: wrap;
+}
+.bg{
+    text-align: center;
+}
+.b{
+    color: blue;
+}
+.Footer-ending{
+    background-color: black;
+    height: 100%;
+    width: 100%
+}
